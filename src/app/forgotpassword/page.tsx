@@ -3,7 +3,7 @@ import axios from "axios";
 import Link from "next/link";
 import React, { useState } from "react";
 
-export default function page() {
+export default function ForgotPage() {
   const [email, setEmail] = useState("");
   const onSubmit = async () => {
     try {

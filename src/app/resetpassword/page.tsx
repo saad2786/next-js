@@ -2,7 +2,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-export default function page() {
+export default function ResetPage() {
   const [token, setToken] = useState("");
   const [verified, setVerified] = useState(false);
   const [newPassword, setNewPassword] = useState("");
